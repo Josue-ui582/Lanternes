@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 580px) {
+    .element-flexible{
+        display: block;
+        padding: 10px;
+    }
+    .element-flexible img{
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 340px) {
+    .element-flexible img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 735px) {
+    .profile small{
+        float: left;
+    }
+
+.profile img{
+    margin-left: -7px;
+}
+}
+
+@media (max-width: 712px) {
+    .location button{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 687px) {
+
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.home{
+    background-color: #e1d6d6fb;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.grey{
+    color: gray;
+}
+
+.grey, span{
+    color: gray;
+}
+
+.dash{
+    
+    background-color: #ede5e5fb;
+}
+
+.dashe{
+    background-color: #f4f0f0fb;
+    width: 25%;
+}
+
+.heade{
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.imac{
+    background-color: orange;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.imacc{
+    color: white;
+}
+
+.imace{
+    background-color: green;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.imacs{
+    background-color: red;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.location {
+    background-color: white;
+    padding: 24px 5px;
+    border-radius: 5px;
+}
+
+.location-admin {
+    background-color: white;
+    padding: 50px 5px;
+    border-radius: 5px;
+}
+
+.location-admin button{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.location-admin button:hover{
+    background-color: rgb(224, 78, 78);
+}
+
+.location-admin select{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px  rgb(236, 230, 230);
+    border-radius: 2px;
+}
+
+.location select{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px  rgb(236, 230, 230);
+    border-radius: 2px;
+}
+
+.location-select{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px  rgb(188, 183, 183);
+    border-radius: 2px;
+}
+
+.location button{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.location button:hover{
+    background-color: rgb(224, 78, 78);
+}
+
+.graph select{
+    border-radius: 5px;
+}
+
+.profile .notice{
+    width: 15px;
+    height: 15px;
+    color: gray;
+}
+
+.profile .chevron{
+    margin-left: -15px;
+    font-weight: 700;
+}
+
+.activity{
+    background-color: white;
+    margin-top: 15px;
+    margin-inline: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 220px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.activity p{
+    color: gray;
+    font-weight: bold;
+}
+
+.activity ul li{
+    margin-top: 10px;
+}
+
+.liste p{
+    color: rgb(76, 75, 75);
+    font-weight: bold;
+}
+
+.liste .icon{
+    flex: 1;
+    color: gray;
+}
+
+thead{
+    text-align: center;
+}
+
+table > thead > td{
+    background-color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+
+table > tr > td{
+    padding: 10px;
+    background-color: white;
+    color: gray;
+}
+
+.scholl{
+    color: rgb(74, 74, 74);
+    font-weight: 600;
+}
+
+.bord{
+    background-color: white;
+    padding: 10px 5px;
+    margin-inline: 5px;
+    border-radius: 8px;
+}
+
+.school {
+    height: 120px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
