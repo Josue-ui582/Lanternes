@@ -61,9 +61,9 @@ const Agent = () => {
           </li>
         </ul>
       </div>
-      <div className='dash h-[130vh]'>
+      <div className='dash h-[130vh] dashs'>
         <p className='mt-[30px] ml-[30px] font-semibold'>Bienvenue, Sylvie !</p>
-        <div className='flex items-center gap-3 mt-[24px] ml-[20px] heade'>
+        <div className='flex items-center w-[450px] gap-3 mt-[24px] ml-[20px] heade'>
           <div className='imac'>
             <TbDeviceImacCheck className='imacc' />
           </div>
@@ -89,7 +89,7 @@ const Agent = () => {
         <Locations />
         <Graph />
       </div>
-      <div className='h-[130vh] w-[240px] dash'>
+      <div className='h-[130vh] w-[700px] ml-[20px] dash'>
         <ProfileAgent />
         <Activity />
         <Tables />

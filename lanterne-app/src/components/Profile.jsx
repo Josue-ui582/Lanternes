@@ -12,7 +12,7 @@ const Profile = () => {
       </div>
       <div className='flex gap-3'>
         <div>
-            <p className='font-bold'>Sylvie Amessang</p>
+            <p className='font-bold'>Esther Albertine</p>
             <small className='float-right'>Administrateur</small>
         </div>
         <div>

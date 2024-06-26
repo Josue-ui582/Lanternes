@@ -47,11 +47,11 @@ const columns = [
 function Tables() {
   return (
     <div>
-        <div className='flex gap-10 mt-[50px] ml-[15px] liste'>
+        <div className='flex gap-10 mt-[60px] ml-[15px] liste'>
             <p>Liste Noire</p>
             <FaRegSquarePlus className='icon' />
         </div>
-        <Table columns={columns} dataSource={data} className='mt-[10px] ml-[15px] rounded-lg h-[20px]' />
+        <Table columns={columns} dataSource={data} className='mt-[25px] ml-[15px] rounded-lg h-[20px]' />
     </div>
   )
 }

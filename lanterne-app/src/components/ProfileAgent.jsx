@@ -6,11 +6,11 @@ import { CiSquareChevDown } from "react-icons/ci";
 function ProfileAgent() {
   return (
     <div>
-      <div className='flex gap-10 ml-[30px] mt-[30px] items-center profile'>
+      <div className='flex gap-10 ml-[30px] mt-[30px] items-center profile profilee'>
             <div>
                 <MdOutlineNotificationsNone className='notice' />
             </div>
-            <div className='flex gap-3'>
+            <div className='flex gap-1'>
                 <div>
                     <p className='font-bold'>Sylvie Amessang</p>
                     <small className='float-right'>Agent</small>

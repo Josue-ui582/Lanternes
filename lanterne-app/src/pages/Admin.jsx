@@ -66,9 +66,9 @@ const Admin = () => {
           </li>
         </ul>
       </div>
-      <div className='dash h-[130vh]'>
+      <div className='dash h-[130vh] dashs'>
         <p className='mt-[30px] ml-[30px] font-semibold'>Bienvenue, Sylvie !</p>
-        <div className='flex items-center gap-3 mt-[24px] ml-[20px] heade'>
+        <div className='flex items-center w-[450px] gap-3 mt-[24px] ml-[20px] heade'>
           <div className='imace'>
             <MdPeopleOutline className='imacc' />
           </div>
@@ -94,7 +94,7 @@ const Admin = () => {
         <LocationAdmin />
         <Graph />
       </div>
-      <div className='h-[130vh] w-[240px] dash'>
+      <div className='h-[130vh] w-[700px] ml-[50px] dash'>
         <Profile />
         <Activity />
         <School />
